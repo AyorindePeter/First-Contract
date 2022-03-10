@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "print",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hollaworld.sol": "helloWorld"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hollaworld.sol": {
+			"keccak256": "0xb66ebceb052126c01e0b61d718f4f1d68175a0650edcb79b6ecdd684cb66ef41",
+			"urls": [
+				"bzzr://8e9f5e0141018df19fb8a97f9daebdaabbb4afc40823a3ec4027947824584a16"
+			]
+		}
+	},
+	"version": 1
+}

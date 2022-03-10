@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favnumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favnumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"freecodecamp.sol": "Simplestorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"freecodecamp.sol": {
+			"keccak256": "0x22e8461a09476794c2b46180b3ea73caa4ec648c781d1287820bd66054d85f8c",
+			"urls": [
+				"bzz-raw://0bdaffa98779107ea5a60e0f32526165c25d90a1129ade36491c646c12a03760",
+				"dweb:/ipfs/QmchfJatreiuMe7W7CNs1ehhRCmeqzF5gKRVyCjsaydAFu"
+			]
+		}
+	},
+	"version": 1
+}
